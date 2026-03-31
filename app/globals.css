@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Colors */
+  --color-primary: #3b82f6;
+  --color-secondary: #6366f1;
+  --color-accent: #f59e0b;
+  --color-background: #ffffff;
+  --color-text: #111827;
+  --color-surface: #f9fafb;
+  --color-border: #e5e7eb;
+
+  /* Typography */
+  --font-heading: 'Inter', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --text-base: 16px;
+  --text-h1: 2.5rem;
+  --text-h2: 2rem;
+  --text-h3: 1.75rem;
+  --line-height: [object Object];
+  --letter-spacing: [object Object];
+
+  /* Spacing */
+  --spacing-section-padding: 4rem;
+  --spacing-element-gap: 1.5rem;
+  --container-max-width: 1200px;
+
+  /* Borders */
+  --border-radius: 0.5rem;
+  --border-width: 1px;
+  --border-color: #e5e7eb;
+
+  /* Shadows */
+  --shadow-card: 0 4px 6px rgba(0,0,0,0.1);
+  --shadow-button: 0 2px 4px rgba(0,0,0,0.1);
+  --shadow-hover: 0 10px 15px rgba(0,0,0,0.1);
+
+  /* Animation */
+  --animation-duration: 0.3s;
+  --animation-easing: ease-in-out;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: var(--line-height);
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  letter-spacing: var(--letter-spacing);
+}
+
+h1 { font-size: var(--text-h1); }
+h2 { font-size: var(--text-h2); }
+h3 { font-size: var(--text-h3); }
+
+.gradient-primary { background: var(--color-primary); color: var(--color-background); }
+.text-white { color: var(--color-text); }
+.bg-slate-900 { background-color: var(--color-background); }

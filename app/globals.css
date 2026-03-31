@@ -68,3 +68,6 @@ h3 { font-size: var(--text-h3); }
 .gradient-primary { background: var(--color-primary); color: var(--color-background); }
 .text-white { color: var(--color-text); }
 .bg-slate-900 { background-color: var(--color-background); }
+.bg-primary { background-color: var(--color-primary) !important; color: var(--color-background) !important; }
+.text-primary { color: var(--color-primary) !important; }
+.border-primary { border-color: var(--color-primary) !important; }
